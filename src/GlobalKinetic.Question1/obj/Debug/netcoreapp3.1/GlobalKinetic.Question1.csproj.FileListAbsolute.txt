@@ -1,0 +1,13 @@
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\bin\Debug\netcoreapp3.1\GlobalKinetic.Question1.exe
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\bin\Debug\netcoreapp3.1\GlobalKinetic.Question1.deps.json
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\bin\Debug\netcoreapp3.1\GlobalKinetic.Question1.runtimeconfig.json
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\bin\Debug\netcoreapp3.1\GlobalKinetic.Question1.runtimeconfig.dev.json
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\bin\Debug\netcoreapp3.1\GlobalKinetic.Question1.dll
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\bin\Debug\netcoreapp3.1\GlobalKinetic.Question1.pdb
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\obj\Debug\netcoreapp3.1\GlobalKinetic.Question1.csprojAssemblyReference.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\obj\Debug\netcoreapp3.1\GlobalKinetic.Question1.AssemblyInfoInputs.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\obj\Debug\netcoreapp3.1\GlobalKinetic.Question1.AssemblyInfo.cs
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\obj\Debug\netcoreapp3.1\GlobalKinetic.Question1.csproj.CoreCompileInputs.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\obj\Debug\netcoreapp3.1\GlobalKinetic.Question1.dll
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\obj\Debug\netcoreapp3.1\GlobalKinetic.Question1.pdb
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1\obj\Debug\netcoreapp3.1\GlobalKinetic.Question1.genruntimeconfig.cache
