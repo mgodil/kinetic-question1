@@ -1,0 +1,9 @@
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\bin\Debug\netstandard2.0\GlobalKinetic.Question1.Common.deps.json
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\bin\Debug\netstandard2.0\GlobalKinetic.Question1.Common.dll
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\bin\Debug\netstandard2.0\GlobalKinetic.Question1.Common.pdb
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\obj\Debug\netstandard2.0\GlobalKinetic.Question1.Common.csprojAssemblyReference.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\obj\Debug\netstandard2.0\GlobalKinetic.Question1.Common.AssemblyInfoInputs.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\obj\Debug\netstandard2.0\GlobalKinetic.Question1.Common.AssemblyInfo.cs
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\obj\Debug\netstandard2.0\GlobalKinetic.Question1.Common.csproj.CoreCompileInputs.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\obj\Debug\netstandard2.0\GlobalKinetic.Question1.Common.dll
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Question1.Common\obj\Debug\netstandard2.0\GlobalKinetic.Question1.Common.pdb
