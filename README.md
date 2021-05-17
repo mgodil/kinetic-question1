@@ -1,1 +1,1 @@
-# kinetic-question1
+# Golobal Kinetic Coinjar Assessment

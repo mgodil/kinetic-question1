@@ -1,0 +1,9 @@
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\bin\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.deps.json
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\bin\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.dll
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\bin\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.pdb
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\obj\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.csprojAssemblyReference.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\obj\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\obj\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.AssemblyInfo.cs
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\obj\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\obj\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.dll
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.DataAccessLayer\obj\Debug\netstandard2.0\GlobalKinetic.Assessment.DataAccessLayer.pdb
