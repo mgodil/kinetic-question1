@@ -247,12 +247,29 @@
       },
       "GlobalKinetic.Assessment.BusinessLayer/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "GlobalKinetic.Assessment.DataAccessLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.6"
+        },
         "compile": {
           "bin/placeholder/GlobalKinetic.Assessment.BusinessLayer.dll": {}
         },
         "runtime": {
           "bin/placeholder/GlobalKinetic.Assessment.BusinessLayer.dll": {}
+        }
+      },
+      "GlobalKinetic.Assessment.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.6"
+        },
+        "compile": {
+          "bin/placeholder/GlobalKinetic.Assessment.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlobalKinetic.Assessment.DataAccessLayer.dll": {}
         }
       }
     }
@@ -749,6 +766,11 @@
       "type": "project",
       "path": "../GlobalKinetic.Assessment.BusinessLayer/GlobalKinetic.Assessment.BusinessLayer.csproj",
       "msbuildProject": "../GlobalKinetic.Assessment.BusinessLayer/GlobalKinetic.Assessment.BusinessLayer.csproj"
+    },
+    "GlobalKinetic.Assessment.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../GlobalKinetic.Assessment.DataAccessLayer/GlobalKinetic.Assessment.DataAccessLayer.csproj",
+      "msbuildProject": "../GlobalKinetic.Assessment.DataAccessLayer/GlobalKinetic.Assessment.DataAccessLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {

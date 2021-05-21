@@ -1,20 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
 using System.Threading.Tasks;
+using GlobalKinetic.Assessment.BusinessLayer;
+using GlobalKinetic.Assessment.BusinessLayer.Implementation;
 using GlobalKinetic.Assessment.BusinessLayer.Interfaces;
 
 namespace GlobalKinetic.Assessment.Api.Controllers
 {
 
   /// <summary>
-  ///  The Coinjar API Controller
+  ///  The Coin Jar API Controller
   /// </summary>
   [ApiController]
-  [Route("api/[controller]")]
+  [Route("api/v1")]
   public class CoinJarController : ControllerBase
   {
     private readonly ILogger<CoinJarController> _logger;
@@ -34,26 +33,42 @@ namespace GlobalKinetic.Assessment.Api.Controllers
     [HttpGet, Route("GetTotalAmount")]
     public async Task<IActionResult> Get()
     {
-      return null;
-      //try
-      //{
-
-      //}
-      // return new string[] { "value1", "value2" };
+      try
+      {
+        decimal results = 0;
+        if (_coinJar != null)
+        {
+          results = await Task.FromResult(_coinJar.GetTotalAmount());
+        }
+        return Ok(results);
+      }
+      catch (Exception e)
+      {
+        _logger.Log(LogLevel.Error, e, "An error was thrown");
+        return BadRequest("Error Occurred");
+      }
     }
+    
 
-
-
-    /// <summary>Posts the specified coin.</summary>
-    /// <param name="coin">The coin.</param>
+    /// <summary>Posts the specified amount.</summary>
+    /// <param name="amount">The amount.</param>
+    /// <param name="volume">The volume.</param>
     /// <returns>
     ///   <br />
     /// </returns>
     [HttpPost, Route("AddCoin")]
-    public async Task<IActionResult> Post([FromBody] int coin)
+    public IActionResult Post(decimal amount, decimal volume )
     {
-     // _logger.Log(LogLevel.Error, coin, );
-      return Ok();
+      try
+      {
+         _coinJar.AddCoin(new Coin(Enums.CoinType.Cent, amount, volume));
+         return Ok();
+      }
+      catch (Exception e)
+      {
+        _logger.Log(LogLevel.Error, e, "An error was thrown");
+        return BadRequest("Error Occurred");
+      }
     }
 
 

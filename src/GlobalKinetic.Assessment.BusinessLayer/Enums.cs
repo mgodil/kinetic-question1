@@ -1,16 +1,19 @@
-﻿namespace GlobalKinetic.Assessment.BusinessLayer
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace GlobalKinetic.Assessment.BusinessLayer
 {
-  /// <summary>
-  ///   <br />
-  /// </summary>
-  public enum CoinType
+  public static class Enums
   {
-    /// <summary>The cent</summary>
-    Cent,
-    Nickel,
-    Dime,
-    Quarter,
-    Half,
-    Large
+    public enum CoinType
+    {
+      Cent = 1,
+      Nickel = 5,
+      Dime = 10,
+      Quarter = 25,
+      Half = 50,
+      Large = 100
+    }
   }
 }

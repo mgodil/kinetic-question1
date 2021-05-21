@@ -11,6 +11,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using GlobalKinetic.Assessment.BusinessLayer.Implementation;
 using GlobalKinetic.Assessment.BusinessLayer.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace GlobalKinetic.Assessment.Api
 {
@@ -26,16 +28,21 @@ namespace GlobalKinetic.Assessment.Api
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-     // services.AddDbContext
       services.AddControllers();
       services.AddSingleton<ICoinJar, CoinJar>();
       services.AddSwaggerGen(options =>
       {
-        options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+        options.SwaggerDoc("v1.0.0", new Microsoft.OpenApi.Models.OpenApiInfo
         {
-          Title = "Global Kinetic Assessment v1",
-          Version = "v1",
-          Description = "Global Kinetic Assessment v1",
+          Title = "Global Kinetic Assessment v1.0.0",
+          Version = "v1.0.0",
+          Description = "Global Kinetic Assessment v1.0.0",
+          Contact = new OpenApiContact
+          {
+            Email = "luyolom@gmail.com",
+            Name = "Luyolo Mgodi",
+
+          } 
         });
       });
     }
@@ -55,7 +62,7 @@ namespace GlobalKinetic.Assessment.Api
       });
       app.UseSwaggerUI(c =>
       {
-        c.SwaggerEndpoint("swagger/v1/swagger.json", "v1");
+        c.SwaggerEndpoint("swagger/v1.0.0/swagger.json", "v1.0.0");
         c.RoutePrefix = string.Empty;
       });
 

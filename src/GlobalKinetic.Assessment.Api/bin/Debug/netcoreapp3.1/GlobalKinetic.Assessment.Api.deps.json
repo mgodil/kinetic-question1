@@ -563,11 +563,26 @@
         }
       },
       "GlobalKinetic.Assessment.BusinessLayer/1.0.0": {
+        "dependencies": {
+          "GlobalKinetic.Assessment.DataAccessLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.6"
+        },
         "runtime": {
           "GlobalKinetic.Assessment.BusinessLayer.dll": {}
         },
         "compile": {
           "GlobalKinetic.Assessment.BusinessLayer.dll": {}
+        }
+      },
+      "GlobalKinetic.Assessment.DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.6"
+        },
+        "runtime": {
+          "GlobalKinetic.Assessment.DataAccessLayer.dll": {}
+        },
+        "compile": {
+          "GlobalKinetic.Assessment.DataAccessLayer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2352,6 +2367,11 @@
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
     },
     "GlobalKinetic.Assessment.BusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlobalKinetic.Assessment.DataAccessLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

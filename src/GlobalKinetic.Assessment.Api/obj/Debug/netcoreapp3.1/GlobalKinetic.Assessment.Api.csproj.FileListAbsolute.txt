@@ -40,3 +40,5 @@ C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.Api\obj\Debug\netco
 C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.Api\obj\Debug\netcoreapp3.1\GlobalKinetic.Assessment.Api.genruntimeconfig.cache
 C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.Api\bin\Debug\netcoreapp3.1\GlobalKinetic.Assessment.BusinessLayer.dll
 C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.Api\bin\Debug\netcoreapp3.1\GlobalKinetic.Assessment.BusinessLayer.pdb
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.Api\bin\Debug\netcoreapp3.1\GlobalKinetic.Assessment.DataAccessLayer.dll
+C:\Work\Tests\kinetic-question1\src\GlobalKinetic.Assessment.Api\bin\Debug\netcoreapp3.1\GlobalKinetic.Assessment.DataAccessLayer.pdb
