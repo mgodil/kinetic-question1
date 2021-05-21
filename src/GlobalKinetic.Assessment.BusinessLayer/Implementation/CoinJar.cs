@@ -14,8 +14,6 @@ namespace GlobalKinetic.Assessment.BusinessLayer.Implementation
   /// </summary>
   public class CoinJar : ICoinJar
   {
-    //private readonly Coin[] coins = Enum.GetValues(typeof(Enums.CoinType)).Cast<Enums.CoinType>().Select(x => new Coin(x)).ToArray();
-
     public void AddCoin(ICoin coin)
     {
       try
